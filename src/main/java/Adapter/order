@@ -1,0 +1,7 @@
+요구사항
+두 수에 대한 연산 수행하는 객체 만들기
+수의 2배 반환 : twiceOf(Float)
+수의 반 반환: halfOf(Float)
+구현객체 이름 Addapter
+
+추가 요구사항
