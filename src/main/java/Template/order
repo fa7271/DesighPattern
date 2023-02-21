@@ -1,0 +1,12 @@
+신작 게임 접속 구현
+requestConnection(String str) : String 템플릿 메소드
+
+유저가 게임 접속시 고려
+접속이라는 알고리즘을 여러개로 나눔 밑에 4개로
+보안: doSecurity(String str):String
+인증: user name 과 password 일치여부 authentication(Stinrg password) : booelan
+권한과정 : 유료회원인지 무료회원인지 authorization(String username) : int
+접속과정 접속자에게 커넥션을 정보로 넘겨줌 connection(String info) String
+
++ 보안부분 강화
++ 10시이후 접속 제한
