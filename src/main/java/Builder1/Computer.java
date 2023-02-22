@@ -1,12 +1,13 @@
 package Builder1;
 
+//디렉터
 public class Computer { // 복잡한 단계 거처야하는 객체
     private String Cpu;
     private String ram;
     private String storage;
 
     public Computer(String cpu, String ram, String storage) {
-        Cpu = cpu;
+        this.Cpu = cpu;
         this.ram = ram;
         this.storage = storage;
     }
@@ -35,7 +36,7 @@ public class Computer { // 복잡한 단계 거처야하는 객체
         this.storage = storage;
     }
 
-    @Override
+    @Override // 객체가 가지고 있는 문자열을 반환
     public String toString() {
         return Cpu +","+ram+","+storage;
     }

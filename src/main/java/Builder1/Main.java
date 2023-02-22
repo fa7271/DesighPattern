@@ -13,7 +13,7 @@ public class Main {
         factory.make(); // 만들어줌
 
         Computer computer = factory.getComputer(); //  설계도대로 만들어줌
-
+        System.out.println(computer);
 //        Computer computer = new Computer("17", "16giga", "256g ssd");
 
         System.out.println(computer.toString()); //
