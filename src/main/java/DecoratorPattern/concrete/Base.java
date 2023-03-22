@@ -1,5 +1,4 @@
 package DecoratorPattern.concrete;
-
 import DecoratorPattern.abst.IBeverage;
 
 public class Base implements IBeverage {
